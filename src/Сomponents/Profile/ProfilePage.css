@@ -1,0 +1,150 @@
+/* Main container */
+/* index.css or App.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+/* index.css or App.css */
+
+  
+.profile-page {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Top navigation bar */
+  .top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #003366;
+    color: #ffffff;
+  }
+  
+  .menu-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .college-button {
+    background-color: #ffffff;
+    color: #003366;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  /* Main content layout */
+  .content {
+    display: flex;
+    padding: 20px;
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sidebar-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333;
+    text-align: left;
+  }
+  
+  .sidebar-button.active,
+  .sidebar-button:hover {
+    background-color: #003366;
+    color: #ffffff;
+    border-color: #003366;
+  }
+  .manage-platforms-button{
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  /* Profile form container */
+  .profile-form-container {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .profile-form-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .profile-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .radio-group label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .radio-group input {
+    margin-right: 5px;
+  }
+  
+  .save-button {
+    background-color: #003366;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .save-button:hover {
+    background-color: #002244;
+  }
+  

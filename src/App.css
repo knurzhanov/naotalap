@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+.logom{
+  width: 50px;
+  margin-right: 20px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +40,72 @@
     transform: rotate(360deg);
   }
 }
+nav ul li:hover{
+  color: #113F71;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* Контейнер слайдера */
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+/* Бесконечный слайдер */
+.logo-slider {
+    display: flex;
+    animation: scroll 10s linear infinite;
+    width: calc(200%); /* Удваиваем ширину для плавного зацикливания */
+}
+
+/* Логотипы */
+.logo-slider img {
+    width: 100px;
+    margin: 0 20px;
+    flex-shrink: 0;
+}
+
+/* Анимация бесконечного слайдера */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+/* Контейнер слайдера */
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* Бесконечный слайдер */
+.logo-slider {
+  display: flex;
+  animation: scroll 30s linear infinite;
+  width: calc(200%); /* Удвоенная ширина для плавной бесконечности */
+}
+.logo-slider img {
+  width: 200px!important; /* Увеличьте это значение для изменения размера */
+  height: auto; 
+}
+/* Логотипы */
+.logo-slider img {
+  width: 100px;
+  margin: 0 20px;
+  flex-shrink: 0;
+}
+
+/* Анимация для плавной непрерывной прокрутки */
+@keyframes scroll {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-50%);
+  }
+}
+
