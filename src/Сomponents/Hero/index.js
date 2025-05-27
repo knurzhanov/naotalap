@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import '../../App.css'
 import Logo1 from "../../assets/svg/Logo.png";
 import Logo2 from "../../assets/svg/Logo1.png";
+import Logo3 from "../../assets/svg/Logo2.png";
 import logo from "../../assets/svg/logom.png";
 
-const logos = [Logo1, Logo2, Logo1, Logo2];
+const logos = [Logo1, Logo2, Logo3, Logo1, Logo2, Logo3];
 const Hero = () => {
   const repeatedLogos = Array(40).fill(logos).flat();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
