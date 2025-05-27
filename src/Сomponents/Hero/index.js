@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../../App.css'
 import Logo1 from "../../assets/svg/Logo.png";
-import Logo2 from "../../assets/svg/Logo2.svg";
+import Logo2 from "../../assets/svg/Logo1.png";
 import logo from "../../assets/svg/logom.png";
 
 const logos = [Logo1, Logo2, Logo1, Logo2];
