@@ -6,7 +6,7 @@
 .stats .template{
     margin-top: 40px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 .stats .template .left span{
     background-color: #113F71;
@@ -17,7 +17,7 @@
 }
 .stats .right{
     display: flex;
-    gap: 50px;
+    gap: 40px;
     margin-top: -25px;
 }
 .stats .template h2{
