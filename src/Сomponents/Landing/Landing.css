@@ -6,7 +6,7 @@
 .stats .template{
     margin-top: 40px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 4fr;
 }
 .stats .template .left span{
     background-color: #113F71;
