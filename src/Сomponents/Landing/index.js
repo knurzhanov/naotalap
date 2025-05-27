@@ -153,7 +153,7 @@ const Landing = () => {
 
         </div>
         <div className="footer-legal">
-          <p>© 2024. НАО «Талап». Все права защищены</p>
+          <p>© 2025. НАО «Талап». Все права защищены</p>
           <a href="#privacy-policy">Политика конфиденциальности</a>
           <a href="#cookie-policy">Политика в отношении файлов cookie</a>
           <a href="#terms">Условия эксплуатации</a>
